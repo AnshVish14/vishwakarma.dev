@@ -1,86 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="mainpage.css"/>
-  <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ansh Vishwakarma | Portfolio</title>
+  <link rel="stylesheet" href="mainpage.css">
 </head>
 <body>
-  <header>
-    <div class="main">
-      <h1>I'm Ansh Vishwakarma</h1>
-      <h4>Developer • Builder • Learner</h4>
-    </div>
+
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="imp-fields\skills\skills.html">Skills</a></li>
+        <li><a href="imp-fields\projects\projects.html">Projects</a></li>
+        <li><a href="imp-fields\contact\contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <ul class="navbar">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I'm a 19-year-old student currently pursuing B.Tech in CSE.
-        Passionate about building real-world projects and learning new technologies.
-        I’m actively working on projects like <strong>Arihant</strong>, <strong>E-CASES</strong>, and <strong>Dhanvaanijya</strong>.
-      </p>
+  <main class="grid-layout">
+    <section class="left-column">
+      <div class="image-wrapper">
+        <img src="images/Portfolio-Photo.jpg" alt="Ansh Vishwakarma" class="profile-img">
+        <div class="overlay-text">Hi, I’m Ansh!</div>
+      </div>
     </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>Java</li>
-        <li>ReactJS</li>
-        <li>NodeJS</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Arihant</h3>
-        <p>Voice-powered assistant with Python-based frontend/backend integration.</p>
-      </div>
-
-      <div class="project">
-        <h3>E-CASES</h3>
-        <p>Case & department management system for court operations.</p>
-      </div>
-
-      <div class="project">
-        <h3>Dhanvaanijya</h3>
-        <p>Stock market prediction using real-time APIs and sentiment analysis.</p>
-      </div>
-
-      <div class="project">
-        <h3>Time Tracker</h3>
-        <p>Student attendance and time management system.</p>
+    <H1> </H1>
+    <section class="center-column">
+      <h1>Ansh Vishwakarma</h1>
+      <p>Developer • Learner • Builder</p>
+      <div class="buttons">
+        <a href="assets\anshvishwakarmaresum2.pdf" download class="btn">Download Resume</a>
+        <a href="https://github.com/AnshVish14" class="btn" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ansh-vishwakarma-1b0a5b1b2/" class="btn" target="_blank">LinkedIn</a>
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:vishwakarmaansh014@gmail.com">vishwakarmaansh014@gmail.com</a></p>
-      <p>Mobile: <a href="tel:+916262644418">+91 6262644418</a></p>
-      <p>GitHub: <a href="https://github.com/AnshVish14" target="_blank">github.com/AnshVish14</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/ansh-vishwakarma-289a8933a" target="_blank">LinkedIn Profile</a></p>
+    <section class="left-column">
+      <div class="box about">
+        <h2>About Me</h2>
+        <p>JAI HIND I'm Ansh Vishwkarma ,
+          I'm a passionate developer with projects like DHAN_VAAANIJYA and more.
+        This website is developed to showcase my projects and skills to everyone.</p>
+      </div>
+
+      <div class="box qualifications">
+        <h2>Qualifications</h2>
+        <ul>
+          <li>10th- MP board (2020-2021)</li>
+          <li>12th -MP-BOARD (2022-2023) - Private</li>
+          <li>Diploma in Computer Science -RGPV University (2021-2024)</li>
+          <li>Diploma in Computer Application -Maharishi Mahesh Yogi Vedic Vishwavidyalaya (2023-2024)</li>
+          <li>B.Tech in Computer Science – RGPV University (2024–2027)</li>
+        </ul>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Ansh Vishwakarma • <a href="#">vishwakarma.dev</a></p>
+    <p>© 2025 Ansh Vishwakarma • Built with 💻 & ☕</p>
   </footer>
+
 </body>
 </html>
