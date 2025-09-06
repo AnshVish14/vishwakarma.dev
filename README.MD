@@ -1,5 +1,4 @@
 Welcome to vishwakarma.dev
-🇮🇳 JAI HIND
 
 📌 About This Website
 This is a personal portfolio website built to showcase my completed and ongoing projects. It serves as a central hub to explore my work, skills, and contributions to software development.
